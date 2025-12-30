@@ -3,7 +3,7 @@
 A demo of authentication with Supabase. Including sign up, sign in (password or password less), reset password, and etc. With Custom URL Scheme.
 watch for changes.
 
-For more details, please refer to my blog [SwiftUI: Auth With Supabase]()
+For more details, please refer to my blog [SwiftUI: Auth With Supabase](https://medium.com/@itsuki.enjoy/swiftui-auth-with-supabase-6c616e0e0ffe)
 
 ## Set up
 1. Go to [database.new](https://database.new/) and click on that New project button to create a new Supabase project.
