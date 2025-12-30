@@ -6,13 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		981A78CA2F020E0900F38956 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 981A78C92F020E0900F38956 /* Auth */; };
+		981A78CC2F020E0900F38956 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 981A78CB2F020E0900F38956 /* Functions */; };
+		981A78CE2F020E0900F38956 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 981A78CD2F020E0900F38956 /* PostgREST */; };
+		981A78D02F020E0900F38956 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 981A78CF2F020E0900F38956 /* Realtime */; };
+		981A78D22F020E0900F38956 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 981A78D12F020E0900F38956 /* Storage */; };
+		981A792A2F0210B200F38956 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 981A79292F0210B200F38956 /* Supabase */; };
+		981A79442F035F4300F38956 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 981A79432F035F4300F38956 /* README.md */; };
+		981A79532F0377DA00F38956 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981A79522F0377DA00F38956 /* demo.gif */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		981A78BA2F01FBF200F38956 /* SupabaseAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupabaseAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981A79432F035F4300F38956 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		981A79522F0377DA00F38956 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		981A792C2F02158600F38956 /* Exceptions for "SupabaseAuth" folder in "SupabaseAuth" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 981A78B92F01FBF200F38956 /* SupabaseAuth */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		981A78BC2F01FBF200F38956 /* SupabaseAuth */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				981A792C2F02158600F38956 /* Exceptions for "SupabaseAuth" folder in "SupabaseAuth" target */,
+			);
 			path = SupabaseAuth;
 			sourceTree = "<group>";
 		};
@@ -23,6 +49,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981A78CE2F020E0900F38956 /* PostgREST in Frameworks */,
+				981A78CC2F020E0900F38956 /* Functions in Frameworks */,
+				981A792A2F0210B200F38956 /* Supabase in Frameworks */,
+				981A78CA2F020E0900F38956 /* Auth in Frameworks */,
+				981A78D22F020E0900F38956 /* Storage in Frameworks */,
+				981A78D02F020E0900F38956 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +64,10 @@
 		981A78B12F01FBF200F38956 = {
 			isa = PBXGroup;
 			children = (
+				981A79432F035F4300F38956 /* README.md */,
+				981A79522F0377DA00F38956 /* demo.gif */,
 				981A78BC2F01FBF200F38956 /* SupabaseAuth */,
+				981A79282F0210B200F38956 /* Frameworks */,
 				981A78BB2F01FBF200F38956 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +78,13 @@
 				981A78BA2F01FBF200F38956 /* SupabaseAuth.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		981A79282F0210B200F38956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +107,12 @@
 			);
 			name = SupabaseAuth;
 			packageProductDependencies = (
+				981A78C92F020E0900F38956 /* Auth */,
+				981A78CB2F020E0900F38956 /* Functions */,
+				981A78CD2F020E0900F38956 /* PostgREST */,
+				981A78CF2F020E0900F38956 /* Realtime */,
+				981A78D12F020E0900F38956 /* Storage */,
+				981A79292F0210B200F38956 /* Supabase */,
 			);
 			productName = SupabaseAuth;
 			productReference = 981A78BA2F01FBF200F38956 /* SupabaseAuth.app */;
@@ -94,6 +142,9 @@
 			);
 			mainGroup = 981A78B12F01FBF200F38956;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 981A78BB2F01FBF200F38956 /* Products */;
 			projectDirPath = "";
@@ -109,6 +160,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981A79442F035F4300F38956 /* README.md in Resources */,
+				981A79532F0377DA00F38956 /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,9 +304,20 @@
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SupabaseAuth/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -274,13 +338,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -295,9 +360,20 @@
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SupabaseAuth/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -318,13 +394,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -351,6 +428,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		981A78C92F020E0900F38956 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		981A78CB2F020E0900F38956 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		981A78CD2F020E0900F38956 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		981A78CF2F020E0900F38956 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		981A78D12F020E0900F38956 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		981A79292F0210B200F38956 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 981A78C82F020E0900F38956 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 981A78B22F01FBF200F38956 /* Project object */;
 }
